@@ -41,9 +41,9 @@ function Layout() {
    () => {
        if (user && user.access_token) {
            axios
-               .get(`https://www.googleapis.com/oauth2/v1/userinfo?access_token=${user.access_token}`, {
+               .get(ADD LINK TO YOUR OWN OAUTH AND ACESS TOKEN!!!!!!), {
                    headers: {
-                       Authorization: `Bearer ${user.access_token}`,
+                       Authorization: `Bearer ${ADD UR ACCESS TOKEN AS A VAR}`,
                        Accept: 'application/json'
                    }
                })
